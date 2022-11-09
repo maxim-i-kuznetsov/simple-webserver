@@ -8,3 +8,7 @@ spec:
       image: maximikuznetsov/simple-webserver:latest
       ports:
         - containerPort: 8000
+      resources:
+        limits:
+          cpu: "30m"
+          memory: "200Mi"
