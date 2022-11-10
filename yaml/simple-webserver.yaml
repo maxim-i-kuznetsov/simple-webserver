@@ -4,7 +4,7 @@ metadata:
   name: simple-webserver-pod
 spec:
   containers:
-    - name: simple-webserver-v2
+    - name: simple-webserver
       image: maximikuznetsov/simple-webserver:latest
       ports:
         - containerPort: 8000
